@@ -1,7 +1,8 @@
 import axios, { AxiosError, AxiosResponse, InternalAxiosRequestConfig } from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: "http://192.168.29.21:2500/api/user", // 
+  // just replace your pc's IP here
+  baseURL: "http://192.168.29.21:2500/api/user", 
   headers: {
     "Content-Type": "application/json",
   },
